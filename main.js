@@ -61,10 +61,12 @@ function refreshList() {
 
 function updateRandomStudent(){
 	var randomStudentField = document.getElementById("randomStudent");
-	randomStudentField.removeChild(randomStudentField.firstChild);
 	var randomStudent = studentArray[Math.floor(Math.random() * studentArray.length)];
-	var newText = document.createTextNode(randomStudent);
-	randomStudentField.appendChild(newText);
+	if (randomStudent){
+		randomStudentField.removeChild(randomStudentField.firstChild);
+		var newText = document.createTextNode(randomStudent);
+		randomStudentField.appendChild(newText);
+	}
 }
 
 function makeTeams(){
