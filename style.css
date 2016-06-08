@@ -1,21 +1,84 @@
-#studentInput {
-	display:inline;
-	width:50%;
+body {
+	background-color:#22223b;
+	font-size:1.2em;
 }
 
-.submit-button {
-	color:black;
-	background-color:white;
+h1 {
+	color:#f2e9e4;
+	margin-top:0;
 }
 
-#studentList {
-	display:inline;
-	width:50%;
+h3 {
+	margin-top:0;
+}
+
+h4 {
+	margin-top:0;
 }
 
 .list-area {
-	width:100vw;
+	background-color:#4a4e69;
+	margin:5px;
+	padding:10px;
+	border-radius:15px;
 }
+
+.input-area {
+	display:inline-block;
+	width:50%;
+}
+
+#studentInput {
+	background-color:white;
+	width:95%;
+	background-color:#f2e9e4;
+}
+
+.submit-button {
+	display:block;
+	margin:auto;
+	margin-top:10px;
+	vertical-align:top;
+	color:black;
+	background-color:#f2e9e4;
+}
+
+#studentList {
+	vertical-align:top;
+	display:inline-block;
+	width:47%;
+}
+
+.random-area {
+	background-color:#9a8c98;
+	text-align:center;
+	margin:5px;
+	padding:10px;
+	border-radius:15px;
+}
+
+.random-button {
+	background-color:#f2e9e4;
+	margin-top:18px;
+	margin-bottom:5px;
+}
+
+.team-area {
+	background-color:#c9ada7;
+	text-align:center;
+	margin:5px;
+	padding:10px;
+	border-radius:15px;
+}
+
+.team-button {
+	background-color:#f2e9e4;
+}
+
+
+
+
+
 
 
 
