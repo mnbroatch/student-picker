@@ -1,48 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="style.css" media="all">
-	<script src="main.js"></script>
-	<title>Student Picker</title>
-</head>
-<body>
-
-	
-
-	<div class="list-area">
-	<textarea id="studentInput" name="studInput" cols="30" rows="10"></textarea>
-
-	<div id="studentList"></div>
-
-	<button class="submit-button">
-		Add Students
-	</button>
-
-</div>
-
-	<h3>And the lucky student is...</h3>
-	<div id="randomStudent">yet to be chosen!</div>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css" media="all">
+		<script src="main.js"></script>
+		<title>Student Picker</title>
+	</head>
+	<body>
 
 
-	<button class="random-button">
-		Choose Random Student
-	</button>
-	
-	<h4>Make teams of size: </h4>
-	<input type="number" value=2 min=2 id="numberBox">
+		<h1>Student Selecting Machine</h1>
 
-	<button class="team-button">
-		Go!
-	</button>
-	
-	<div id="teamBox"></div>
+		<div class="list-area">
+
+			<div class="input-area">
+
+				<textarea id="studentInput" name="studInput" cols="30" rows="10"></textarea>
+
+				<button class="submit-button">
+					Add Students
+				</button>
+
+			</div>
+
+			<div id="studentList"></div>
+
+		</div>
+
+		<div class="random-area">
+
+			<h3>And the lucky student is...</h3>
+			<div id="randomStudent">yet to be chosen!</div>
+
+
+			<button class="random-button">
+				Choose Random Student
+			</button>
+
+		</div>
+
+		<div class="team-area">
+
+			<h4>Make teams of size: </h4>
+			<input type="number" value=2 min=2 id="numberBox">
+
+			<button class="team-button">
+				Go!
+			</button>
+
+			<div id="teamBox"></div>
+
+		</div>
 
 
 
-	
 
-	
 
-</body>
+
+	</body>
 </html>
